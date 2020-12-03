@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+footer{
+    display: grid;
+    height: 50px;
+    background-color: blueviolet;
+    grid-template-columns: repeat(3, 1fr);
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 100px auto;
+    height: 100vh;
+}
+.main-nav{
+    background-color: cadetblue;
+}
+.main-content{
+    padding: 20px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template: repeat(3,1fr)/repeat(4,1fr);  
+}
+.item{
+    background-image: url("https://i.postimg.cc/ryBYCq7N/MrRobot.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.item-title{
+    font-size: 1.8rem;
+    color: rgb(99, 91, 91);
+    width: 100%;
+    margin-top: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.item-text{
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    padding: 5px;
+}
