@@ -1,0 +1,28 @@
+header{
+    grid-template-columns:  1fr 50px;
+    justify-items: center;
+}
+.search{
+    width: 80%;
+    margin: 0;
+}
+.logo{
+    display: none;
+}
+
+.main-content{
+    grid-template-columns: 1fr;
+}
+.main-container{
+    grid-template-columns: 1fr;
+}
+.main-nav, .account-span, .account p{
+    display: none;
+}
+.account{
+    grid-template-columns: 1fr;
+    padding-right: 10px;
+}
+.profile{
+    width: 90%;
+}

@@ -1,0 +1,6 @@
+.main-container{
+    grid-template-columns: 90px auto;
+}
+.main-content{
+    grid-template-columns: repeat(2,1fr);
+}
