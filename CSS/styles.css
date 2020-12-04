@@ -5,47 +5,100 @@
 }
 html{
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
-footer{
+header{
     display: grid;
     height: 50px;
-    background-color: blueviolet;
+    background-color:rgb(0, 0, 0);
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.logo img{
+    padding: 5px;
+    width: 70%;
+}
+.search{
+    margin: 0 auto;
+    width: 80%;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.account{
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    grid-template-columns: auto 50px 40px;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.profile{
+    width: 80%;
+    border-radius: 100%;
+}
+.account-span{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://i.postimg.cc/hjXvJRMv/arrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .main-container{
     display: grid;
     grid-template-columns: 100px auto;
     height: 100vh;
 }
-.main-nav{
-    background-color: cadetblue;
+.main-nav{ 
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color:rgb(199 1 37);
+    color: white;
+}
+.main-nav ul{
+    display: grid;
+    grid-template-rows: repeat(2,70px);
+    grid-gap: 15px;
+    padding-top: 5px;
 }
 .main-content{
     padding: 20px;
     display: grid;
     grid-gap: 30px;
     grid-template: repeat(3,1fr)/repeat(4,1fr);  
+    background-color: rgb(48, 48, 48);
 }
 .item{
     background-image: url("https://i.postimg.cc/ryBYCq7N/MrRobot.jpg");
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border-radius: 2px;
+    box-shadow: 3px 5px 9px 5px black;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
 }
 .item-title{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: rgb(99, 91, 91);
     width: 100%;
     margin-top: 40%;
     background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 5px;
 }
 .item-text{
-    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
     font-weight: 500;
     width: 100%;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: left;
     padding: 5px;
+    padding-top: 15px;
 }
